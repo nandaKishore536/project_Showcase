@@ -1,0 +1,24 @@
+.li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 10px;
+  outline: none;
+  box-shadow: black;
+  width: 250px;
+}
+
+.list_img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.name {
+  margin: 8px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}

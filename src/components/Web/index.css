@@ -1,0 +1,76 @@
+.bg {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  outline: none;
+}
+
+.option {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-right: 14px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+}
+
+.ul {
+  flex-wrap: wrap;
+  display: flex;
+  list-style-type: none;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-failure-img {
+  width: 400px;
+  height: 350px;
+}
+
+.product-failure-heading-text {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.products-failure-description {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.btn {
+  background-color: #328af2;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 8px;
+  cursor: pointer;
+}
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
